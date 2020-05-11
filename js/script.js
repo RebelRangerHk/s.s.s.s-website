@@ -1,0 +1,1 @@
+// This is the sripting file of the website

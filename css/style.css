@@ -1,0 +1,119 @@
+*
+{
+	margin:0;
+	padding:0;
+	box-sizing:border-box;
+}
+
+.carousel-item
+{
+	height: 89.2vh;
+	width: 100%;
+	position: relative;
+}
+
+.carousel-item img
+{
+	position: absolute;
+	height: 100%;
+	width: 100%;
+}
+
+.MainSec
+{
+	background: white;
+	width:100%;
+	display: grid;
+	grid-template-columns: 1fr 200px;
+}
+
+.contentDiv
+{
+}
+
+.WelcomeMsg
+{
+	background: #f9f9f9;
+}
+
+.WelcomeMsg h2
+{
+	padding: 25px;
+	color:#6886c5;
+}
+
+.ImgBox
+{
+	position: relative;
+	height: 300px;
+	width: 350px;
+	margin:  15px auto;
+}
+
+.WelcomeMsg img
+{
+	position: absolute;
+	height: 100%;
+	width: 100%;
+}
+
+
+.WelcomeBox p
+{
+	font-size: 1.3rem;
+	letter-spacing: 2px;
+	word-spacing: 5px;
+	padding: 25px 15px;
+	color:#00005c;
+	font-weight:500;
+	text-align: justify-all;
+}
+
+.SideNav
+{
+	background:#f8f3eb;
+}
+
+.SideNav .sideNavHeading
+{
+	font-size: 32px;
+	color: #fc7e2f;
+	font-weight: bolder;
+	text-align: center;
+	padding-top: 25px;
+}
+
+.SideNav ul
+{
+	list-style-type:none;
+	width: 100%;
+}
+
+.SideNav ul li
+{
+	font-size: 20px;
+	font-weight: 500;
+	padding: 10px 0 0 5px;
+	text-align: center;
+	color:#58b4ae;
+	transition: 0.2s linear;
+	cursor: pointer;
+	text-transform: capitalize; 
+}
+
+.SideNav ul li:hover
+{
+	color:#00005c;
+}
+
+.SideNav ul li ul li
+{
+	font-size: 18px;
+	display:none;
+	width: 100%;
+}
+
+.SideNav ul li:hover > ul li
+{
+	display: inline-block;
+}
